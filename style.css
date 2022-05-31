@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    font-family: "Orbitron", sans-serif;
+    background: url(https://images.unsplash.com/photo-1498736297812-3a08021f206f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1179&q=80);
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 60px;
+    text-align: center;
+    color: #fcf3f3;
+    text-shadow: 0px 1px 10px rgb(255, 32, 229), 0px 1px 10px rgb(241, 24, 230);
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.clock {
+    display: flex;
+}
+
+.clock div {
+    margin: 5px;
+}
+
+.clock span {
+    width: 100px;
+    height: 80px;
+    opacity: 12.8px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+}
+
+.clock #hour {
+    text-shadow: 0px 1px 10px rgb(229, 42, 42), 0px 1px 10px rgb(227, 22, 22), 0px 1px 10px rgba(239, 4, 4, 0.938);
+    background: rgba(230, 19, 19, 0.555);
+    border-radius: 30px;
+    justify-content: center;
+}
+
+.clock #minutes {
+    text-shadow: 0px 1px 10px rgb(201, 229, 42), 0px 1px 10px rgb(118, 227, 22), 0px 1px 10px rgb(71, 239, 4);
+    background: rgba(85, 225, 29, 0.575);
+    border-radius: 30px;
+    justify-content: center;
+}
+
+.clock #seconds {
+    text-shadow: 0px 1px 10px rgb(82, 253, 216), 0px 1px 10px rgb(22, 206, 227), 0px 1px 10px rgb(205, 78, 222);
+    background: rgba(19, 230, 230, 0.605);
+    border-radius: 30px;
+    justify-content: center;
+}
+
+.clock #ampm {
+    color: rgb(245, 241, 240);
+    text-shadow: 0px 1px 5px rgb(244, 88, 31), 0px 1px 5px rgb(252, 15, 15), 0px 1px 5px rgb(246, 106, 12);
+    font-size: 40px;
+}
+
+.clock #text1 {
+    height: 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0px 1px 20px rgb(229, 42, 42), 0px 1px 10px rgb(227, 22, 22), 0px 1px 10px rgb(239, 4, 4);
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.clock #text2 {
+    height: 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0px 1px 10px rgb(201, 229, 42), 0px 1px 10px rgb(118, 227, 22), 0px 1px 10px rgb(71, 239, 4);
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.clock #text3 {
+    height: 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0px 1px 10px rgb(82, 253, 216), 0px 1px 10px rgb(22, 206, 227), 0px 1px 10px rgb(205, 78, 222);
+    justify-content: center;
+    margin-left: 5px;
+}
